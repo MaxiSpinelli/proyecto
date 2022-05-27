@@ -1,32 +1,56 @@
 body {
-    background-color: white;
+    background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
+
 }
 
 .header {
     background-color: lightgrey;
     color: black;
-
     border: 5px solid gold;
 
 }
 
 
-.imagen-logo {
-    width: 50px;
+
+
+
+
+.imagen-Logo {
+    width: 10%;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 
 
 .top-bar {
-    border: 5px solid gold;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-evenly;
     color: gold;
-    background-color: white;
+    background-color: black;
+    border: 4px solid gold;
+    
 }
+
+.item-1{
+    background-color: gold;
+}
+
+.item-2 {
+    background-color: gold;
+}
+
+.item-3 {
+    background-color: gold;
+}
+
+
+
+
+
+
+
 
 h2 {
     margin-top: 50px;
@@ -104,14 +128,17 @@ width: 50%;
 
 .footer {
     margin-top: 20px;
-    border-radius: 3px gold;
+    border: 4px solid gold;
     width: auto;
+    background-color: black;
 }
 
 .p-footer {
     border: 3px dotted gold;
-    background-color: rgb(252, 252, 250);
+    background-color: rgb(255, 255, 198);
     width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .mapa {
