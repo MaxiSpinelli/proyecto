@@ -7,6 +7,9 @@ body {
     background-color: lightgrey;
     color: black;
     border: 5px solid gold;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 
 }
 
@@ -17,16 +20,14 @@ body {
 
 .imagen-Logo {
     width: 10%;
-    display: flex;
-    justify-content: flex-start;
 }
 
 
 
 .top-bar {
-    width: 85%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-arounds;
     color: gold;
     background-color: black;
     border: 4px solid gold;
