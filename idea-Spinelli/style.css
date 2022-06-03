@@ -12,9 +12,6 @@ body {
 
 
 
-
-
-
 .imagen-Logo {
     width: 10%;
 }
@@ -34,24 +31,14 @@ body {
 
 }
 
-.item-1 {
+.item-1, .item-2, .item-3, .item-4 {
     background-color: gold;
-    border-radius: 3rem;
+    transition: all 1.5s;
 }
 
-.item-2 {
-    background-color: gold;
+.item-1, .item-2, .item-3, .item-4:hover {
+    transform: scale(2);
 }
-
-.item-3 {
-    background-color: gold;
-}
-
-.item-4 {
-    background-color: gold;
-}
-
-
 
 
 
@@ -66,6 +53,11 @@ h2 {
     display: flex;
     justify-content: center;
 
+}
+
+.seccion-hamb {
+    display: flex;
+    justify-content: center;
 }
 
 .hamburguesas {
@@ -99,6 +91,12 @@ h2 {
     grid-area: 4 / 1 / 5 / 2;
 }
 
+.hamb {
+    transition: all 1.5s;
+}
+ .hamb:hover {
+     transform: scale(2);
+ }
 
 
 .desc-1 {
@@ -118,7 +116,9 @@ h2 {
     grid-area: 4 / 2 / 5 / 3;
 }
 
-
+.ig-icono {
+    width: 10%;
+}
 
 
 
@@ -148,6 +148,13 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.wpp-footer {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .mapa {
     width: 40%;
