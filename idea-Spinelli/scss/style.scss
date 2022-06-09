@@ -97,7 +97,6 @@ h2 {
     margin: 100px;
     display: flex;
     justify-content: center;
-    background-color:gold ;
     height: 80px;
     .img-sponsor {
         width: 100%;
@@ -126,6 +125,7 @@ h2 {
         width: 20%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 }
 
@@ -141,13 +141,17 @@ h2 {
 
 
 @media (max-width: 590px) {
-    .hamburguesas {
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 50px;
+    .seccion-hamb {
         width: 100%;
-        align-items: center;
+        .hamburguesas {
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 50px;
+            width: 100%;
+            align-items: center;
+        }
     }
+    
     .mapa{
         width: 100%;
     }

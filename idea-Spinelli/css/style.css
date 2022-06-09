@@ -77,7 +77,6 @@ h2 {
   margin: 100px;
   display: flex;
   justify-content: center;
-  background-color: gold;
   height: 80px;
 }
 .sponsor .img-sponsor {
@@ -103,6 +102,7 @@ h2 {
   width: 20%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .mapa {
@@ -112,7 +112,10 @@ h2 {
 }
 
 @media (max-width: 590px) {
-  .hamburguesas {
+  .seccion-hamb {
+    width: 100%;
+  }
+  .seccion-hamb .hamburguesas {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 50px;
