@@ -1,0 +1,9 @@
+@import 'base/variables';
+
+header {
+    background-color: $color-secundario;
+    color: $color-principal;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}

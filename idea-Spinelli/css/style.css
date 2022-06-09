@@ -1,0 +1,127 @@
+body {
+  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
+}
+
+header {
+  background-color: black;
+  color: gold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-Logo {
+  width: 10%;
+}
+
+h2 {
+  margin-top: 50px;
+  border: 4px solid gold;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-hamb {
+  display: flex;
+  justify-content: center;
+}
+.seccion-hamb .hamburguesas {
+  border: 4px solid gold;
+  background-color: gold;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 20px;
+  width: 50%;
+  align-items: center;
+}
+.seccion-hamb .hamburguesa1-imagen {
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+.seccion-hamb .hamburguesa2-imagen {
+  width: 100%;
+  grid-area: 2/1/3/2;
+}
+.seccion-hamb .hamburguesa-3 {
+  width: 100%;
+  grid-area: 3/1/4/2;
+}
+.seccion-hamb .hamburguesa-4 {
+  width: 100%;
+  grid-area: 4/1/5/2;
+}
+.seccion-hamb .hamb {
+  transition: all 1s;
+}
+.seccion-hamb .hamb:hover {
+  transform: scale(1.2);
+}
+.seccion-hamb .desc-1 {
+  grid-area: 1/2/2/3;
+}
+.seccion-hamb .desc-2 {
+  grid-area: 2/2/3/3;
+}
+.seccion-hamb .desc-3 {
+  grid-area: 3/2/4/3;
+}
+.seccion-hamb .desc-4 {
+  grid-area: 4/2/5/3;
+}
+
+.sponsor {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: gold;
+  height: 80px;
+}
+.sponsor .img-sponsor {
+  width: 100%;
+}
+
+.ig-icono {
+  width: 10%;
+}
+
+.footer {
+  margin-top: 20px;
+  border: 4px solid gold;
+  width: auto;
+  background-color: black;
+}
+.footer img {
+  width: 10%;
+}
+.footer .p-footer {
+  border: 3px dotted gold;
+  background-color: rgb(255, 255, 198);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 590px) {
+  .hamburguesas {
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    width: 100%;
+    align-items: center;
+  }
+  .mapa {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
