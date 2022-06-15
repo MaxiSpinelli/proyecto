@@ -1,0 +1,46 @@
+@import 'base/variables';
+
+@media (max-width: 590px) {
+    .seccion-hamb {
+        width: 100%;
+        .hamburguesas {
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 50px;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    
+    .seccion-hamb2 {
+        width: 100%;
+        .hamburguesas2s {
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 50px;
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    .mapa{
+        width: 100%;
+    }
+
+    .cocineros-s {
+        section {
+            width: 100%;
+        }
+    }
+
+    iframe {
+        width: 100%;
+      }
+    
+
+    .p-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }

@@ -1,0 +1,34 @@
+@import 'base/variables';
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/mediaq";
+
+
+body  {
+    background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
+}
+
+
+
+.ig-icono {
+    width: 10%;
+}
+
+
+iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.mapa {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.disclaimer {
+    display: none;
+}
+

@@ -1,0 +1,21 @@
+@import 'base/variables';
+
+.footer {
+    margin-top: 20px;
+    border: 4px solid $color-principal;
+    width: auto;
+    background-color: $color-secundario;
+    
+     img {
+        width: 10%;
+       }
+    
+    
+       .p-footer {
+        border: 3px dotted $color-principal;
+        background-color: rgb(255, 255, 198);
+        display: flex;
+        align-items: center;
+        
+    }
+}
