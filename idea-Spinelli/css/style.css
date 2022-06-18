@@ -103,6 +103,20 @@ h2 {
 .imagen-Logo {
   width: 10%; }
 
+.main-quienes-somos {
+  display: flex;
+  justify-content: center; }
+
+.Seccion-quienes-somos {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  width: 30%;
+  font-size: larger;
+  border: 15px solid gold;
+  margin: 20px 20px;
+  padding: 10px; }
+
 .sponsor {
   margin: 100px;
   display: flex;
@@ -163,7 +177,6 @@ iframe {
   margin-bottom: 20px; }
 
 .mapa {
-  width: 40%;
   display: flex;
   justify-content: center; }
 
