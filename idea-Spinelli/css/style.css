@@ -155,6 +155,18 @@ h2 {
       grid-row-gap: 50px;
       width: 100%;
       align-items: center; }
+  .main-quienes-somos {
+    display: flex;
+    flex-direction: column; }
+  .Seccion-quienes-somos {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: larger;
+    width: 100%;
+    border: 15px solid gold;
+    margin: 20px;
+    padding: 10px; }
   .mapa {
     width: 100%; }
   .cocineros-s section {
