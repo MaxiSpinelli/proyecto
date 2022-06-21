@@ -22,11 +22,12 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 4px;
-    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
     width: 50%;
     align-items: center;
-    margin-top: 30px; }
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif; }
   .seccion-hamb .hamburguesa1-imagen {
     width: 100%;
     grid-area: 1 / 1 / 2 / 2; }
@@ -61,11 +62,12 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 40px;
     grid-row-gap: 20px;
     align-items: center;
     width: 50%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif; }
   .seccion-hamb2 .hamburguesa5 {
     grid-area: 1 / 1 / 2 / 2;
     width: 100%; }
@@ -96,7 +98,10 @@ h2 {
     background-color: black;
     border: 4px solid gold;
     margin-top: 40px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .cocineros-s section iframe {
       width: 100%; }
 
@@ -143,7 +148,7 @@ h2 {
     width: 100%; }
     .seccion-hamb .hamburguesas {
       grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 10px;
+      grid-column-gap: 30px;
       grid-row-gap: 50px;
       width: 100%;
       align-items: center; }
@@ -151,7 +156,7 @@ h2 {
     width: 100%; }
     .seccion-hamb2 .hamburguesas2s {
       grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 10px;
+      grid-column-gap: 30px;
       grid-row-gap: 50px;
       width: 100%;
       align-items: center; }
@@ -159,14 +164,8 @@ h2 {
     display: flex;
     flex-direction: column; }
   .Seccion-quienes-somos {
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: larger;
-    width: 100%;
-    border: 15px solid gold;
-    margin: 20px;
-    padding: 10px; }
+    margin: 20px 0px;
+    width: 100%; }
   .mapa {
     width: 100%; }
   .cocineros-s section {
