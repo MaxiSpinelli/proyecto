@@ -192,14 +192,16 @@ iframe {
   display: flex;
   justify-content: center; }
   .sect-mapa iframe {
-    margin: 20px; }
+    margin-top: 20px;
+    margin-right: 20px; }
   .sect-mapa .p-mapa {
     background-color: gold;
     width: 50%;
     font-size: large;
     height: 200px;
     padding: 10px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    margin-top: 20px; }
 
 .disclaimer {
   display: none; }
