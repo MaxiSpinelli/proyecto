@@ -22,11 +22,24 @@ iframe {
 }
 
 
-.mapa {
-    
+.sect-mapa {
     display: flex;
     justify-content: center;
+
+    iframe {
+        margin: 20px;
+        
+    }
+    .p-mapa {
+        background-color: gold;
+        width: 50%;
+        font-size: large;
+        height: 200px;
+        padding: 10px;
+        margin-right: 20px;
+    }
 }
+
 
 .disclaimer {
     display: none;

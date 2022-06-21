@@ -166,9 +166,10 @@ h2 {
   .Seccion-quienes-somos {
     margin: 20px 0px;
     width: 100%; }
-  .mapa {
-    width: 100%; }
+  .sect-mapa {
+    flex-direction: column; }
   .cocineros-s section {
+    margin: 20px 0px;
     width: 100%; }
   iframe {
     width: 100%; }
@@ -187,9 +188,18 @@ iframe {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-.mapa {
+.sect-mapa {
   display: flex;
   justify-content: center; }
+  .sect-mapa iframe {
+    margin: 20px; }
+  .sect-mapa .p-mapa {
+    background-color: gold;
+    width: 50%;
+    font-size: large;
+    height: 200px;
+    padding: 10px;
+    margin-right: 20px; }
 
 .disclaimer {
   display: none; }

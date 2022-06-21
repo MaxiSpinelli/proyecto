@@ -39,13 +39,16 @@
        width: 100%;
     }
 
-    .mapa{
-        width: 100%;
+    .sect-mapa{
+        flex-direction: column;
+        
     }
 
     .cocineros-s {
         section {
+            margin: 20px 0px;
             width: 100%;
+            
         }
     }
 
