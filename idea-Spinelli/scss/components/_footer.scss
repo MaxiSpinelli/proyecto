@@ -2,7 +2,7 @@
 
 .footer {
     margin-top: 20px;
-    border: 4px solid $color-principal;
+     border: 5px solid $color-principal;
     width: auto;
     background-color: $color-secundario;
     
@@ -12,7 +12,7 @@
     
     
        .p-footer {
-        border: 3px dotted $color-principal;
+        border: 3px solid $color-principal;
         background-color: rgb(255, 255, 198);
         display: flex;
         align-items: center;

@@ -8,10 +8,14 @@ header {
 
 h2 {
   margin-top: 50px;
-  border: 4px solid gold;
-  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: black;
+  background-color: gold;
+  border-radius: 10px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif; }
 
 .seccion-hamb {
   display: flex;
@@ -90,7 +94,9 @@ h2 {
     transform: scale(1.2); }
 
 .cocineros-s {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  justify-content: center; }
   .cocineros-s h3 {
     color: white; }
   .cocineros-s section {
@@ -101,7 +107,7 @@ h2 {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    margin: 20px; }
     .cocineros-s section iframe {
       width: 100%; }
 
@@ -132,13 +138,13 @@ h2 {
 
 .footer {
   margin-top: 20px;
-  border: 4px solid gold;
+  border: 5px solid gold;
   width: auto;
   background-color: black; }
   .footer img {
     width: 10%; }
   .footer .p-footer {
-    border: 3px dotted gold;
+    border: 3px solid gold;
     background-color: #ffffc6;
     display: flex;
     align-items: center; }
@@ -160,6 +166,9 @@ h2 {
       grid-row-gap: 50px;
       width: 100%;
       align-items: center; }
+  h2 {
+    margin-left: 20%;
+    margin-right: 20%; }
   .main-quienes-somos {
     display: flex;
     flex-direction: column; }
@@ -167,10 +176,15 @@ h2 {
     margin: 20px 0px;
     width: 100%; }
   .sect-mapa {
-    flex-direction: column; }
-  .cocineros-s section {
-    margin: 20px 0px;
+    flex-direction: column;
     width: 100%; }
+    .sect-mapa .div-p-mapa {
+      width: 100%; }
+  .cocineros-s {
+    flex-direction: column; }
+    .cocineros-s section {
+      margin: 20px 0px;
+      width: 100%; }
   iframe {
     width: 100%; }
   .p-footer {
@@ -179,7 +193,8 @@ h2 {
     justify-content: center; } }
 
 body {
-  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg); }
+  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
+  margin: 0px 10px; }
 
 .ig-icono {
   width: 10%; }
@@ -193,15 +208,18 @@ iframe {
   justify-content: center; }
   .sect-mapa iframe {
     margin-top: 20px;
-    margin-right: 20px; }
-  .sect-mapa .p-mapa {
+    margin-right: 20px;
+    width: 100%; }
+  .sect-mapa .div-p-mapa {
     background-color: gold;
-    width: 50%;
     font-size: large;
+    width: 100%;
     height: 200px;
     padding: 10px;
     margin-right: 20px;
     margin-top: 20px; }
+  .sect-mapa .p-mapa {
+    width: 100%; }
 
-.disclaimer {
+.diclaimer {
   display: none; }

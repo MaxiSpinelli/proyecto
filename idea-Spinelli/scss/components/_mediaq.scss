@@ -24,7 +24,10 @@
     }
 
 
-
+    h2 {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 
 
     .main-quienes-somos {
@@ -41,10 +44,17 @@
 
     .sect-mapa{
         flex-direction: column;
-        
+        width: 100%;
+        .div-p-mapa {
+            width: 100%;
+        }
+ 
+         
     }
+    
 
     .cocineros-s {
+        flex-direction: column;
         section {
             margin: 20px 0px;
             width: 100%;
