@@ -11,11 +11,12 @@
        }
     
     
+
        .p-footer {
-        border: 3px solid $color-principal;
-        background-color: rgb(255, 255, 198);
+        color: gold;
         display: flex;
         align-items: center;
+        flex-direction: column;
         
     }
 }

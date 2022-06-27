@@ -6,6 +6,10 @@ header {
   justify-content: center;
   padding: 20px; }
 
+.navbar {
+  position: sticky;
+  top: 0; }
+
 h2 {
   margin-top: 50px;
   margin-left: 30%;
@@ -144,10 +148,10 @@ h2 {
   .footer img {
     width: 10%; }
   .footer .p-footer {
-    border: 3px solid gold;
-    background-color: #ffffc6;
+    color: gold;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    flex-direction: column; }
 
 @media (max-width: 590px) {
   .seccion-hamb {
@@ -187,10 +191,15 @@ h2 {
       width: 100%; }
   iframe {
     width: 100%; }
-  .p-footer {
+  .wpp {
+    width: 20%; }
+  .footer img {
+    width: 30%; }
+  .footer .p-footer {
     display: flex;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center;
+    height: 50%; } }
 
 body {
   background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
@@ -198,6 +207,12 @@ body {
 
 .ig-icono {
   width: 10%; }
+
+.wpp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 7%; }
 
 iframe {
   margin-top: 20px;
