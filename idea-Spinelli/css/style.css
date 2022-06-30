@@ -153,6 +153,44 @@ h2 {
     align-items: center;
     flex-direction: column; }
 
+body {
+  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
+  margin: 0px 10px; }
+
+.ig-icono {
+  width: 10%; }
+
+.wpp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 7%; }
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.sect-mapa {
+  display: flex;
+  justify-content: center; }
+  .sect-mapa iframe {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%; }
+  .sect-mapa .div-p-mapa {
+    background-color: gold;
+    font-size: large;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px; }
+  .sect-mapa .p-mapa {
+    width: 100%; }
+
+.diclaimer {
+  display: none; }
+
 @media (max-width: 590px) {
   .seccion-hamb {
     width: 100%; }
@@ -200,41 +238,3 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 50%; } }
-
-body {
-  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
-  margin: 0px 10px; }
-
-.ig-icono {
-  width: 10%; }
-
-.wpp {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  width: 7%; }
-
-iframe {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.sect-mapa {
-  display: flex;
-  justify-content: center; }
-  .sect-mapa iframe {
-    margin-top: 20px;
-    margin-right: 20px;
-    width: 100%; }
-  .sect-mapa .div-p-mapa {
-    background-color: gold;
-    font-size: large;
-    width: 100%;
-    height: 200px;
-    padding: 10px;
-    margin-right: 20px;
-    margin-top: 20px; }
-  .sect-mapa .p-mapa {
-    width: 100%; }
-
-.diclaimer {
-  display: none; }

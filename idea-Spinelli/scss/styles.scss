@@ -2,7 +2,7 @@
 @import "components/header";
 @import "components/main";
 @import "components/footer";
-@import "components/mediaq";
+
 
 
 body  {
@@ -57,3 +57,5 @@ iframe {
 .diclaimer {
     display: none;
 }
+
+@import "components/mediaq";
