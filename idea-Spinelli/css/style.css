@@ -154,8 +154,7 @@ h2 {
     flex-direction: column; }
 
 body {
-  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg);
-  margin: 0px 10px; }
+  background-image: url(https://st3.depositphotos.com/4112611/16101/v/450/depositphotos_161015130-stock-illustration-fast-food-pattern.jpg); }
 
 .ig-icono {
   width: 10%; }
@@ -194,6 +193,8 @@ iframe {
   display: none; }
 
 @media (max-width: 590px) {
+  body {
+    margin: 0px 13px; }
   .seccion-hamb {
     width: 100%; }
     .seccion-hamb .hamburguesas {
@@ -222,10 +223,10 @@ iframe {
   .sect-mapa {
     flex-direction: column;
     width: 100%; }
-    .sect-mapa iframe {
-      width: 100%; }
     .sect-mapa .div-p-mapa {
-      width: 100%; }
+      width: 90%; }
+    .sect-mapa iframe {
+      width: 90%; }
   .cocineros-s {
     flex-direction: column; }
     .cocineros-s section {

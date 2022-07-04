@@ -2,6 +2,12 @@
 @import 'base/variables';
 
 @media (max-width: 590px) {
+    
+    body {
+        margin: 0px 13px;
+    }
+    
+    
     .seccion-hamb {
         width: 100%;
         .hamburguesas {
@@ -46,13 +52,12 @@
     .sect-mapa{
         flex-direction: column;
         width: 100%;
-        iframe {
-            width: 100%;
-        }
         .div-p-mapa {
-            width: 100%;
+            width: 90%;
         }
- 
+        iframe {
+            width: 90%;
+        }
          
     }
     
